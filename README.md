@@ -1,15 +1,14 @@
 # blackjack
 this is blackjack by Eziz
-Felipe Rivera
-  9:04 PM
-Create the boilerplate (!)
-title the page "Gaming Table"
-duplicate the header and footer from the landing page
-Create proper semantic tags
-a main tag to represent table itself
-sections to represent an area that is the "Player's" cards, and an area for the "Dealer's" cards, each of which have
-an h2
-a list of cards, which are dealt in order (pick any cards :))
-a section with
-a description list of terms including "Hit", "Stand", "Split", and their defintions
-a h3 containing "Player's Options"
+
+Felipe Rivera  9:01 PM
+add a link to a new index.css file with styles specific to this page (index.html) (after reset and common stylesheet links)
+create a section with an id of hero that has 100% width, height: 30vh and
+an h1 with a tagline including the word Blackjack
+create a section with an id of whyUs that has 40% width
+becomes 100% when the screen is 800px or smaller
+includes a paragraph about why we are the best blackjack app (containg the word Why)
+create a section with an id of callToAction with
+becomes 100% when the screen is 800px or smaller
+includes a paragraph containing the word Money
+includes a button that says Start Playing
