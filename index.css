@@ -8,6 +8,7 @@
     color: white;
     text-align: center;
     font-size: 2rem;
+    margin-top: 95px;
 }
 
 #whyUs {
@@ -34,7 +35,7 @@
     margin-top: 10px;
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #222;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -43,5 +44,38 @@
 }
 
 #callToAction button:hover {
-    background-color: #000;
+    background-color: #404040;
+}
+@media (max-width: 800px) {
+    #whyUs {
+        width: 100%;
+    }
+    #callToAction{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    #noMobileFeature{
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    #mobileFeature{
+        display: none;
+    }
+}
+#mobileFeature {
+    width: 100%;
+    margin: 20px auto;
+    background-color:  var(--secondary-color);
+    text-align: center;
+    font-size: 1.2rem;
+}
+#noMobileFeature {
+    width: 100%;
+    margin: 20px auto;
+    background-color:  var(--secondary-color);
+    text-align: center;
+    font-size: 1.2rem;
 }
