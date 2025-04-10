@@ -62,3 +62,16 @@ nav{
     display: flex;
     justify-content: center;
 }
+nav ul li a button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  nav ul li a button:hover {
+    background-color: darkorange;
+  }
